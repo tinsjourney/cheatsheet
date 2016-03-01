@@ -57,3 +57,8 @@ git checkout master
 git merge branchfromsecondrepo
 ```
 Your repository will have more than one root commit, but that shouldn't pose a problem.
+
+# Push tags and commit in one push
+```
+git config --global push.followTags true
+```
